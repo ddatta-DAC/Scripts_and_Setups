@@ -1,0 +1,4 @@
+wget https://secure.nis.vt.edu/resources/downloads/ps-pulse-linux-5.3r2.0-b853-ubuntu-debian-installer.deb
+sudo dpkg --install <*.deb>
+/usr/local/pulse/PulseClient.sh install_dependency_packages
+
