@@ -45,5 +45,10 @@ cd Programs
 mkdir tf_virtenv_1
 virtualenv --system-site-packages ~/Programs/tf_virtenv_1/
 source ~/Programs/tf_virtenv_1/bin/activate
+# set up packages inside virtual environment
+pip install tensorflow
+deactivate
+#move out of virtual environment
+
 
 
