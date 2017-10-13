@@ -6,6 +6,7 @@ conda install -c conda-forge pygrib
 conda install -c conda-forge requests-ftp
 conda install --channel https://conda.anaconda.org/anaconda mysql-python
 conda install -c conda-forge dateutils
+conda install -c anaconda pymongo 
 
 
 #Tensorflow
