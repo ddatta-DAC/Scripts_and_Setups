@@ -6,6 +6,8 @@ sudo python get-pip.py
 sudo apt-get install python-dev
 sudo apt install libicu-dev
 sudo apt-get install libgrib-api-dev
+sudo apt-get install python-virtualenv
+sudo apt-get install fort77
 
 
 # Setup mongodb
@@ -34,4 +36,14 @@ pip install --user seaborn
 pip install --user rpy2==2.7.2
 pip install --user requests
 pip install --user beautifulsoup
+
+#setup Tensorflow
+pip install --user tensorflow
+cd
+mkdir Programs
+cd Programs
+mkdir tf_virtenv_1
+virtualenv --system-site-packages ~/Programs/tf_virtenv_1/
+source ~/Programs/tf_virtenv_1/bin/activate
+
 
