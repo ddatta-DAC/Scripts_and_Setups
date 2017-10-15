@@ -36,6 +36,7 @@ pip install --user seaborn
 pip install --user rpy2==2.7.2
 pip install --user requests
 pip install --user beautifulsoup
+pip install --user sklearn
 
 #setup Tensorflow
 pip install --user tensorflow
