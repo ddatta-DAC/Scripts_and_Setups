@@ -1,6 +1,5 @@
 <?php
 
-
 $filename = "1.txt";
 $to      = 'debanjan.907@gmail.com';
 $subject = 'Data attachment';
@@ -32,4 +31,5 @@ $body .= $content . $eol;
 $body .= "--" . $separator . "--";
 
 mail($to, $subject, $body, $headers);
+
 ?>
