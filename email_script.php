@@ -2,13 +2,15 @@
 
 
 $filename = "1.txt";
-
+$to      = 'debanjan.907@gmail.com';
+$subject = 'Data attachment';
+$message = 'Please find the attachment';
 
 // ----------------------------------------------------------- //
 $sender = "ddatta_dac@VT";
 $body = "";
 $header = "";
-$content = " Zilch! ";
+$content = $message ;
 
 
 $separator = md5(time());
@@ -29,14 +31,5 @@ $body .= "Content-Disposition: attachment" . $eol;
 $body .= $content . $eol;
 $body .= "--" . $separator . "--";
 
-$to      = 'debanjan.907@gmail.com';
-$subject = 'Data attachment';
-$message = 'Please find the attachment';
-
-//$headers = 'From: ddatta_dac@VT' . "\r\n" .
-//    'Reply-To: debanjan.907@gmail.com' . "\r\n" .
-//    'X-Mailer: PHP/' . phpversion();
-
 mail($to, $subject, $body, $headers);
-
 ?>
