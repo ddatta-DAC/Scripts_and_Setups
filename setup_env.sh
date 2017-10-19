@@ -8,6 +8,8 @@ sudo apt install libicu-dev
 sudo apt-get install libgrib-api-dev
 sudo apt-get install python-virtualenv
 sudo apt-get install fort77
+sudo apt-get install sendmail
+sudo apt-get install php
 
 
 # Setup mongodb
