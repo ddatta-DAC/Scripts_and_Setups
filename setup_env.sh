@@ -38,7 +38,7 @@ pip install --user requests
 pip install --user beautifulsoup
 pip install --user sklearn
 pip install --user networkx
-
+pip install --user sets
 
 #setup Tensorflow
 pip install --user tensorflow
