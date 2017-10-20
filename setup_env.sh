@@ -10,6 +10,7 @@ sudo apt-get install python-virtualenv
 sudo apt-get install fort77
 sudo apt-get install sendmail
 sudo apt-get install php
+sudo apt-get install python-tk
 
 
 # Setup mongodb
