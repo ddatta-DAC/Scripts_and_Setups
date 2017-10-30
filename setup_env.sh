@@ -11,7 +11,7 @@ sudo apt-get install fort77
 sudo apt-get install sendmail
 sudo apt-get install php
 sudo apt-get install python-tk
-
+sudo apt-get install r-base-core
 
 # Setup mongodb
 # Ubuntu 16.04
