@@ -13,6 +13,10 @@ sudo apt-get install php
 sudo apt-get install python-tk
 sudo apt-get install r-base
 sudo apt-get install r-base-core
+sudo apt-get install r-cran-littler
+sudo apt-get install libssl-dev
+sudo apt-get install libcurl4-openssl-dev
+
 
 # Setup mongodb
 # Ubuntu 16.04
