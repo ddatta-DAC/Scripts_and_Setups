@@ -48,6 +48,8 @@ pip install --user sklearn
 pip install --user networkx
 pip install --user sets
 pip install --user spacy
+pip install --user joblib
+pip install --user xmltodict
 
 
 
