@@ -1,0 +1,9 @@
+sudo apt-get install libapache2-mod-php
+sudo apt-get update
+sudo apt-get install php
+sudo apt-get install phpmyadmin php-mbstring php-gettext
+sudo ln -s /usr/share/phpmyadmin /var/www/html/
+sudo a2enmod php7.0 
+sudo systemctl restart apache2
+sudo systemctl restart mysql
+
