@@ -7,3 +7,9 @@ sudo a2enmod php7.0
 sudo systemctl restart apache2
 sudo systemctl restart mysql
 
+# ------------------------ #
+# sudo mysql --user=root mysql
+
+# GRANT ALL PRIVILEGES ON *.* TO 'phpmyadmin'@'localhost' WITH GRANT OPTION;
+# FLUSH PRIVILEGES;
+# GRANT ALL PRIVILEGES ON *.* TO 'phpmyadmin'@'localhost' WITH GRANT OPTION;
