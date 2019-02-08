@@ -1,0 +1,14 @@
+sudo apt install python-dev python-pip 
+pip install -U --user pip six numpy wheel mock
+pip install -U --user keras_applications==1.0.6 --no-deps
+pip install -U --user keras_preprocessing==1.0.5 --no-deps
+git clone https://github.com/tensorflow/tensorflow.git
+cd tensorflow
+./configure
+git checkout v1.12
+sudo apt-get install pkg-config zip g++ zlib1g-dev unzip python
+wget https://github.com/bazelbuild/bazel/releases/download/0.15.0/bazel-0.15.0-installer-linux-x86_64.sh
+bazel build --config=opt //tensorflow/tools/pip_package:build_pip_packag
+./bazel-bin/tensorflow/tools/pip_package/build_pip_package /tmp/tensorflow_pkg
+pip install /tmp/tensorflow_pkg/
+
