@@ -19,5 +19,6 @@ FLUSH PRIVILEGES;
 SELECT user,authentication_string,plugin,host FROM mysql.user;      
 
 #  Add in new user
-CREATE USER 'newuser'@'localhost' IDENTIFIED BY 'password'; 
-GRANT ALL PRIVILEGES ON * . * TO '_newuser_'@'localhost';
+CREATE USER 'newuser'@'localhost' IDENTIFIED BY 'password';     
+GRANT ALL PRIVILEGES ON * . * TO '_newuser_'@'localhost';     
+FLUSH PRIVILEGES;     
