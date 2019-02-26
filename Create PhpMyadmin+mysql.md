@@ -18,3 +18,6 @@ ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'user_nam
 FLUSH PRIVILEGES;       
 SELECT user,authentication_string,plugin,host FROM mysql.user;      
 
+#  Add in new user
+CREATE USER 'newuser'@'localhost' IDENTIFIED BY 'password'; 
+GRANT ALL PRIVILEGES ON * . * TO '_newuser_'@'localhost';
